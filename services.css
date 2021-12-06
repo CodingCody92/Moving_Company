@@ -41,9 +41,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4em;
     margin-top: 2.3em;
     font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 .container {
@@ -270,4 +271,16 @@
          filter: none;
          
      } */
+}
+
+@media(max-width: 600px) {
+    .explain-container {
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 400px) {
+    .explain-container {
+        font-size: .8em;
+    }
 }
