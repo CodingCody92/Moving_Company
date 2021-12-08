@@ -1,0 +1,76 @@
+:root {
+    --primary-color: rgba(44, 44, 44, 0.75);
+
+}
+
+.why {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 40vh;
+    position: relative;
+}
+
+.why:before {
+    content: '';
+    background: url(https://www.uhaul.com/MovingHelp/Content/Images/og-meta-image.jpeg?3c2373e7=772757097);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* animation: transitionIn 5s; */
+}
+
+.why-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.why h1 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 3px;
+}
+
+.us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.3em;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.pre-why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    padding: 2.3em;
+}
+
+
+
+
+
+
+
+@keyframes transitionIn {
+    from {
+       opacity: 0;
+       transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+        transition: ease-in;
+    }
+}

@@ -38,9 +38,10 @@ header {
     text-decoration: none;
     margin: 80px;
     color: black;
-    font-size: 1.2em;
+    font-size: .9em;
     letter-spacing: 3px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .navbar-links a:hover {
@@ -78,6 +79,7 @@ header {
     max-width: 100%;
     box-shadow: 0px 1px 10px #999;
     filter: brightness(0.7);
+    animation: transitionIn 4s ;
 }
 
 .mover span {
@@ -161,13 +163,14 @@ header {
 .explain {
     max-width: 300px;
     max-height: 450px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgba(231, 231, 231, 0.322);
     transition: ease-in .2s;
     margin: 30px;
     box-shadow: 1px 1px 1px 1px rgb(141, 141, 141);
     color: #0a0a0a;
+    /* padding: 0; */
+    text-align: center;
 }
-
 
 
 .explain:hover {
@@ -211,7 +214,6 @@ header {
     width: 75%;
     /* box-shadow: 1px 2px 2px 1px rgb(85, 84, 84); */
     background-color: rgb(7, 7, 133);
-
 }
 
 
@@ -377,6 +379,18 @@ header {
     text-align: center;
 }
 
+@keyframes transitionIn {
+    from {
+       opacity: 0;
+       transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+        transition: ease-in;
+    }
+}
 
 
 @media (max-width: 1202px) {
