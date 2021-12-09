@@ -10,6 +10,7 @@
     font-size: 1.4em;
     font-family: 'Outfit', sans-serif;
     letter-spacing: 2px;
+    text-align: center
 }
 
 
@@ -48,10 +49,11 @@
     padding: 20px;
 }
 
-.form-select {
-    background-color: orange;
-    
+.move-form p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
 }
+
 
 .select-container p {
     text-align: center;
@@ -74,4 +76,51 @@ select option {
     background-color: rgb(248, 248, 248);
     color: rgb(17, 17, 17);
     box-shadow: 1px 1px 1px 1px rgb(235, 235, 235);
+}
+.text-container{
+     margin: 30px;
+}
+
+.text-container p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.button-container button {
+    background-color: rgb(34, 206, 34);
+    border: none;
+    color: white;
+    width: 200px;
+    font-family: 'Outfit', sans-serif;
+    padding: 10px;
+    transition: ease-in .3s;
+    
+}
+
+.button-container button:hover {
+    background-color: rgb(226, 164, 47);
+}
+
+
+@media(max-width: 480px) {
+    .form input {
+        width: 300px;
+    }
 }

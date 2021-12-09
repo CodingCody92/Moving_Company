@@ -1,0 +1,22 @@
+.covid-explain {
+   text-align: center;
+   font-size: 1.3em;
+   font-family: 'Outfit', sans-serif;
+   margin: 16px;
+}
+
+.covid-explain span {
+    font-size: .9em;
+}
+
+.covid-container .safety {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.covid-img {
+    max-width: 100px;
+}
