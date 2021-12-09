@@ -9,14 +9,75 @@
     font-size: .9em;
 }
 
-.covid-container .safety {
+.covid-about {
+    margin: 30px;
+}
+
+.covid-about h1 {
+    text-align: center;
+    color: rgb(238, 146, 9);
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.covid-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    padding: 1em;
+    flex-wrap: wrap;
 }
 
+.covid-container .safety {
+    margin: 35px;
+}
+
+.covid-container .safety p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
 
 .covid-img {
     max-width: 100px;
+}
+
+.doing-container #start {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(238, 146, 9);
+}
+
+.covid-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.7em;
+    font-family: 'Outfit', sans-serif;
+}
+
+.covid-question {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 3.3em;
+}
+
+.covid-question a {
+    text-decoration: none;
+    color: rgb(238, 146, 9);
+}
+
+.covid-question a:hover {
+    color: rgb(31, 214, 31);
+}
+
+.end span {
+    font-style: italic;
+    color: rgb(31, 214, 31);
+}
+
+@media(max-width: 620px) {
+    .covid-us {
+        margin-left: .6em;
+    }
 }
